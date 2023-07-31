@@ -4,7 +4,7 @@ import pandas as pd
 import altair as alt
 
 st.header('st.write')
-st.subheader('LMAO)
+st.subheader('LMAO')
 st.write('Hello World! :sunglasses:')
 
 st.write('1234')
