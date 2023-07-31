@@ -26,3 +26,9 @@ c = alt.Chart(df2).mark_circle().encode(
     x='a', y='b', size='c', color='c', tooltip=['a','b','c'])
 
 st.write(c)
+
+st.header('Slider : ')
+
+st.subheader('Slider')
+
+st.slider('How old are you', (0,130,25))
