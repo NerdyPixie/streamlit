@@ -52,3 +52,10 @@ start_time = st.slider(
      value=datetime(2020, 1, 1, 10, 30),
      format="MM/DD/YY - hh:mm")
 st.write("Start time:", start_time)
+
+
+lc = pd.DataFrame(
+    np.random.randn(50,3),
+    column = ['a', 'b', 'c'])
+
+st.line_chart()
