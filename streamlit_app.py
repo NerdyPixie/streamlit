@@ -42,7 +42,7 @@ st.write('Values : ', range)
 
 ploo = st.slider(
     "Schedule your appointment: ",
-    value = (time(11:30), time(12:45)))
+    value = (time(11,30), time(12,45)))
 
 st.write("You're scheduled for appointment at", value)
     
