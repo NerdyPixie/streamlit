@@ -56,6 +56,6 @@ st.write("Start time:", start_time)
 
 lc = pd.DataFrame(
     np.random.randn(50,3),
-    column = ['a', 'b', 'c'])
+    columns = ['a', 'b', 'c'])
 
 st.line_chart(lc)
