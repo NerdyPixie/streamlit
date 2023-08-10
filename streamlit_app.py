@@ -59,3 +59,11 @@ lc = pd.DataFrame(
     columns = ['a', 'b', 'c'])
 
 st.line_chart(lc)
+
+st.subheader("Select Box")
+
+options = st.selectbox(
+    "Select one of the following :",
+    ('noob', 'amateur', 'pro'))
+
+st.write("You are a ", options)
